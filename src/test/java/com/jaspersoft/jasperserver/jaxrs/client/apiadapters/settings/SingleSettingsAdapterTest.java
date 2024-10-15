@@ -15,7 +15,7 @@ import com.jaspersoft.jasperserver.jaxrs.client.dto.settings.RequestSettings;
 import com.jaspersoft.jasperserver.jaxrs.client.dto.settings.UserTimeZone;
 import java.util.List;
 import java.util.Map;
-import javax.ws.rs.core.GenericType;
+import jakarta.ws.rs.core.GenericType;
 import org.mockito.Mock;
 import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;

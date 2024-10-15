@@ -11,8 +11,8 @@ import org.powermock.modules.testng.PowerMockTestCase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import javax.net.ssl.TrustManager;
-import javax.net.ssl.X509TrustManager;
+import jakarta.net.ssl.TrustManager;
+import jakarta.net.ssl.X509TrustManager;
 import java.io.InputStream;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

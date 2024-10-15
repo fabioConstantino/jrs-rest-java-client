@@ -25,10 +25,10 @@ package com.jaspersoft.jasperserver.jaxrs.client.dto.alerting.calender;
 //import com.jaspersoft.jasperserver.dto.job.adapters.ExcludeDaysXmlAdapter;
 
 import com.jaspersoft.jasperserver.dto.alerting.ClientAlertCalendar;
-import com.jaspersoft.jasperserver.dto.alerting.adapters.ExcludeDaysXmlAdapter;
+import com.jaspersoft.jasperserver.jaxrs.client.dto.jobs.adapters.ExcludeDaysXmlAdapter;
 
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.util.ArrayList;
 
 @XmlRootElement(name = "reportJobCalendar")

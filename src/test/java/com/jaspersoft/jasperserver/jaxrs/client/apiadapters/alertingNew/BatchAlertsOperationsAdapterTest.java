@@ -14,7 +14,7 @@ import org.powermock.reflect.Whitebox;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import javax.ws.rs.core.MultivaluedHashMap;
+import jakarta.ws.rs.core.MultivaluedHashMap;
 
 import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.*;

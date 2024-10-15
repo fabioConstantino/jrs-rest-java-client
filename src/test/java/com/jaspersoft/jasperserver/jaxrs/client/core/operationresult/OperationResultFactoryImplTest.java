@@ -6,7 +6,7 @@ import com.jaspersoft.jasperserver.dto.resources.ClientSecureMondrianConnection;
 import com.jaspersoft.jasperserver.dto.thumbnails.ResourceThumbnail;
 import com.jaspersoft.jasperserver.jaxrs.client.apiadapters.resources.util.ResourcesTypeResolverUtil;
 import com.jaspersoft.jasperserver.dto.thumbnails.ResourceThumbnailsListWrapper;
-import javax.ws.rs.core.Response;
+import jakarta.ws.rs.core.Response;
 import org.mockito.Mockito;
 import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;

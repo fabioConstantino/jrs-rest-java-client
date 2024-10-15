@@ -7,8 +7,8 @@ import com.jaspersoft.jasperserver.jaxrs.client.core.exceptions.handling.Default
 import com.jaspersoft.jasperserver.jaxrs.client.core.operationresult.OperationResult;
 import java.util.Locale;
 import java.util.Map;
-import javax.ws.rs.core.GenericType;
-import javax.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.GenericType;
+import jakarta.ws.rs.core.MediaType;
 import org.codehaus.jettison.json.JSONObject;
 import org.mockito.Mock;
 import org.powermock.reflect.Whitebox;
